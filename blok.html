@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>blog</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blok.html">BLOG</a></li>
+                    <li><a href="content.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>our certificate & online programs for 2021</h1>
+    </section>
+
+    <!-- blog page  -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg">
+                <h2>our certificate & online programs for 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt repudiandae obcaecati vitae id
+                    quia minus reiciendis optio, quis illo eligendi. </p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eveniet iste, officia, eaque
+                    eligendi repellendus nihil veritatis dolores odio harum animi totam vitae perspiciatis. Quis amet
+                    maiores consequuntur asperiores harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                    fugiat. </p> <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit sapiente aspernatur voluptatem cumque
+                    distinctio? Ex quas autem sequi fuga excepturi deserunt, molestias temporibus, officiis esse sunt
+                    laudantium omnis exercitationem eveniet! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Esse, cupiditate.</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, aliquam? Ea tempora voluptate
+                    doloremque et. Repudiandae eligendi distinctio cum tempore!</p>
+
+
+                <div class="comment-box">
+                    <h3>leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="enter name">
+                        <input type="text" placeholder="enter email">
+                        <textarea name="" rows="5" placeholder="your comment"></textarea>
+                        <button type="submit" class="hero-box red-btn"> post comment</button>
+                    </form>
+                </div>
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>post categories</h3>
+                <div>
+                    <span>business analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>BBA accounting</span>
+                    <span>32</span>
+                </div>
+                <div>
+                    <span>computer science</span>
+                    <span>47</span>
+                </div>
+                <div>
+                    <span>philosophy</span>
+                    <span>50</span>
+                </div>
+                <div>
+                    <span>BBA marketing</span>
+                    <span>45</span>
+                </div>
+                <div>
+                    <span>BBA finance</span>
+                    <span>54</span>
+                </div>
+                <div>
+                    <span>english</span>
+                    <span>45</span>
+                </div>
+                <div>
+                    <span>low</span>
+                    <span>66</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,<br> ut! Maiores fugiat molestiae
+            doloribus
+            nulla iste ad quod ipsa inventore.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+            <p>@copyright shushi</p>
+        </div>
+    </section>
+
+    <!-- -------javascript------ -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLink");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
